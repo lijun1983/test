@@ -3,19 +3,14 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>test</artifactId>
+        <artifactId>as</artifactId>
         <groupId>com</groupId>
         <version>1.0-SNAPSHOT</version>
+        <relativePath>../as/pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>as</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>a1</module>
-        <module>../app</module>
-        <module>appweb</module>
-    </modules>
+    <artifactId>app</artifactId>
 
 
 </project>
